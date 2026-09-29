@@ -1,0 +1,155 @@
+body:after {
+	background-color: #e6e2db;
+	background-image: none;
+}
+
+@media screen and (min-width: 737px) {
+
+	body,
+	#page-wrapper {
+		justify-content: center;
+	}
+
+	#wrapper {
+		box-shadow: 0 1.5rem 3.5rem rgba(27, 36, 48, 0.22);
+	}
+
+}
+
+.panel > .color0,
+.panel.color0 {
+	background-color: #1c2836;
+	background-image: linear-gradient(165deg, #243044 0%, #1c2836 100%);
+	background-size: auto;
+	background-repeat: no-repeat;
+}
+
+.panel > .color4-alt,
+.panel.color4-alt {
+	background-color: #151b24;
+	background-image: none;
+	background-size: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 600;
+	letter-spacing: -0.03em;
+}
+
+h1.major:after,
+h2.major:after,
+h3.major:after {
+	background-color: rgba(232, 220, 203, 0.75);
+	height: 2px;
+}
+
+.panel.banner .content h1.major {
+	margin-bottom: 1.85rem;
+}
+
+.panel > .content p {
+	color: rgba(255, 255, 255, 0.84);
+	max-width: none;
+	margin-bottom: 1.15rem;
+}
+
+@media screen and (min-width: 737px) {
+
+	.panel.banner .content p {
+		white-space: nowrap;
+	}
+
+}
+
+.timeline {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.timeline li {
+	display: grid;
+	grid-template-columns: 6.6rem 1fr;
+	column-gap: 0.85rem;
+	align-items: baseline;
+	margin: 0;
+	padding: 0.28rem 0;
+	color: rgba(255, 255, 255, 0.84);
+	font-size: 0.95rem;
+	line-height: 1.35;
+}
+
+.timeline li > span:first-child {
+	color: #e8dccb;
+}
+
+.timeline a img {
+	width: 0.95em;
+	height: 0.95em;
+	margin-right: 0.35em;
+	vertical-align: -0.15em;
+	border-radius: 2px;
+}
+
+.timeline a img[src$="btk.png"] {
+	filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 736px) {
+
+	.panel.banner .content h1.major br {
+		display: block;
+	}
+
+	.panel.banner .content {
+		padding-top: 2rem;
+		padding-bottom: 1.75rem;
+	}
+
+	.panel.banner .content h1.major {
+		margin-bottom: 1.35rem;
+	}
+
+	.panel > .content p {
+		margin-bottom: 0.9rem;
+	}
+
+	.panel > .inner {
+		padding-top: 1.75rem;
+		padding-bottom: 1.5rem;
+	}
+
+	.timeline li {
+		display: block;
+		padding: 0.4rem 0;
+	}
+
+	.timeline li > span:first-child {
+		display: block;
+		margin-bottom: 0.1rem;
+		font-size: 0.8rem;
+	}
+
+	#wrapper {
+		margin-bottom: 2rem;
+	}
+
+}
+
+a:hover {
+	color: #e8dccb;
+}
+
+ul.contact-icons.color1 > li:before {
+	color: #243044;
+}
+
+#wrapper > .copyright {
+	color: rgba(27, 36, 48, 0.5);
+}
